@@ -32,3 +32,6 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+disqus:
+  shortname: alun404
+google_analytics: UA-88380620-1
