@@ -32,5 +32,5 @@ exclude:
   - Gemfile
   - Gemfile.lock
 disqus:
-  shortname: alun404
+  shortname: badgerous
 google_analytics: UA-88380620-1
