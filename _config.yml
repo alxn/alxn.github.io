@@ -19,7 +19,7 @@ title: Badgerous Blog
 description: > # this means to ignore newlines until "baseurl:"
   A collection of thoughts and notes.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://blog.badgerous.net"
+url: "http://badgerous.net"
 twitter_username: alun404
 github_username:  alxn
 
