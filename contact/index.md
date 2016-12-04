@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Contact
-permalink: /contaact/
+permalink: /contact/
 ---
 
 Contact me. Twitter, LinkedIn. Email.
