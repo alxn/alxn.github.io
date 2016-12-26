@@ -17,7 +17,7 @@
 author: Alun Evans
 title: Badgerous Blog
 description: > # this means to ignore newlines until "baseurl:"
-  A collection of thoughts and notes.
+  Literacy and diligence.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://badgerous.net"
 twitter_username: alun404
