@@ -87,7 +87,23 @@
   }
 }
 
+.share-page {
+  background: $background-color;
+  float:left;
+  margin-left: -100px;
+  top: $spacing-unit + 56px;
+  position: relative;
+  display:block;
+  @include media-query($on-palm) {
+      display:none;
+  }
+}
 
+.share-media-list {
+  top: auto;
+  position: fixed;
+  list-style: none;
+}
 
 /**
  * Site footer
