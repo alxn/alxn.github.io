@@ -21,6 +21,7 @@ The topics aren't going to be that exciting to start with:
 3. Getting up to speed with new (to me) technology for the new job.
 4. Posts about maintain this blog; *meta* I know.
    * Adding in the Open Source [FontAwesome][] via [CDN][bootstrapcdn].
+   * Adding in the nice typefaces from [Google Fonts][fonts].
    * [AMPing][amp] up the website on mobile.
 
 [so-quote]: https://english.stackexchange.com/questions/226886/origin-of-i-hear-and-i-forget-i-see-and-i-remember-i-do-and-i-understand
@@ -28,4 +29,5 @@ The topics aren't going to be that exciting to start with:
 [Feedly]: https://feedly.com/
 [FontAwesome]: http://fontawesome.io/
 [bootstrapcdn]: https://bootstrapcdn.com/
+[fonts]: https://fonts.google.com/
 [amp]: https://www.ampproject.org/

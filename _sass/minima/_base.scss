@@ -14,7 +14,9 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-  font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
+  font-family: $sans-font-family;
+  font-weight: $base-font-weight;
+  font-size: $base-font-size;
   color: $text-color;
   background-color: $background-color;
   -webkit-text-size-adjust: 100%;
@@ -118,8 +120,8 @@ blockquote {
   padding-left: $spacing-unit / 2;
   font-size: 18px;
   letter-spacing: -1px;
+  font: $base-font-weight #{$base-font-size}/#{$base-line-height} $italic-font-family;
   font-style: italic;
-
   > :last-child {
     margin-bottom: 0;
   }
@@ -132,6 +134,7 @@ blockquote {
  */
 pre,
 code {
+  font: $base-font-weight #{$base-font-size}/#{$base-line-height} $code-font-family;
   font-size: 15px;
   border: 1px solid $grey-color-light;
   border-radius: 3px;
