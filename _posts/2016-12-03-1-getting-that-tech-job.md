@@ -186,7 +186,4 @@ even record yourself, so you can see how it comes across.
 [careercup]: http://careercup.com
 [Interview Cake]: https://www.interviewcake.com/
 [Lake Wobegon Strategy]: https://research.googleblog.com/2006/03/hiring-lake-wobegon-strategy.html
-[Latency Numbers Every Programmer Should Know]: https://gist.github.com/jboner/2841832
-[Norvig]: http://norvig.com/spell-correct.html
-[write a spell checker]: http://norvig.com/spell-correct.html
 [interviewbit]: https://www.interviewbit.com
