@@ -88,6 +88,7 @@ li {
  */
 h1, h2, h3, h4, h5, h6 {
   font-weight: $base-font-weight;
+  color: $header-color;
 }
 
 
@@ -104,8 +105,7 @@ a {
   }
 
   &:hover {
-    color: $text-color;
-    text-decoration: underline;
+    color: lighten($brand-color, 15%);
   }
 }
 
@@ -115,12 +115,11 @@ a {
  * Blockquotes
  */
 blockquote {
-  color: $grey-color;
-  border-left: 4px solid $grey-color-light;
+  color: lighten($brand-color, 25%);
+  border-left: 4px solid $brand-color;
   padding-left: $spacing-unit / 2;
-  font-size: 18px;
-  letter-spacing: -1px;
   font: $base-font-weight #{$base-font-size}/#{$base-line-height} $italic-font-family;
+  font-size: 16px;
   font-style: italic;
   > :last-child {
     margin-bottom: 0;
@@ -136,9 +135,9 @@ pre,
 code {
   font: $base-font-weight #{$base-font-size}/#{$base-line-height} $code-font-family;
   font-size: 15px;
-  border: 1px solid $grey-color-light;
+  border: 1px solid #121212;
   border-radius: 3px;
-  background-color: #eef;
+  background-color: #191919;
 }
 
 code {
