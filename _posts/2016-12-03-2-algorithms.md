@@ -17,6 +17,12 @@ understand it. The solution you are looking for may have taken someone
 YEARS to discover. You are attempting to stand on the shoudlers of
 giants, not grow the height of a giant.
 
+For example, the [8-queens][] puzzle was first published in
+in 1848. Franz Nauck published the first solutions in 1850. In 1874,
+S. Gunther proposed a method using determinants to find solutions. In
+1972, Edsger Dijkstra used this problem to illustrate the power of
+what he called structured programming... You have 15 minutes.
+
 Do not just memorise this. Actually understand the solution in your
 own terms. Consider understanding it, then coming back to code the
 problem later, so that you test that understanding.
@@ -127,7 +133,7 @@ Data structures now seem trivia in comparison to this list:
    * Remember to look up balanced tree rotations.
  * Greedy Algorithms
  * Recursion
- * Backtracking (e.g. [n-queens](https://en.wikipedia.org/wiki/Eight_queens_puzzle)).
+ * Backtracking (e.g. [n-queens][8-queens]).
  * Dynamic Programming
  * Misc: Bit math, Regexp
 
@@ -228,3 +234,5 @@ Phew!
 Yes, I really have ready every single link and topic above. I can't
 honestly remember all of them, but a good chunk are familiar to me
 now.
+
+[8-queens]: https://en.wikipedia.org/wiki/Eight_queens_puzzle
