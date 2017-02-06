@@ -13,7 +13,8 @@ be well on the way to a real product, have grown the team, and even
 have potential customers trying out the product.
 
 Try to avoid falling into the trap of "just 6 more months", or "I'll
-wait for it to end".
+wait for it to end". You really want to avoid
+getting [Startup Stockholm Syndrome][ss].
 
 [![](http://imgs.xkcd.com/comics/settling.png "Of course, &quot;Number of times I&#39;ve gotten to make a decision twice to know for sure how it would have turned out&quot; is still at 0.")](https://xkcd.com/1768/)
 
@@ -50,3 +51,5 @@ Like working *with* other people? Then a tiny startup may not be for
 you. You'll interact at the high level probably daily, but on the low
 level technical details you'll be on your own, for days to weeks at an
 end.
+
+[ss]: https://en.wikipedia.org/wiki/Stockholm_syndrome
