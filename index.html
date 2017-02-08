@@ -1,0 +1,57 @@
+---
+layout: default
+title: "Badgerous Blog"
+description: |
+  Alun blogging about madness.
+keywords:
+  - interviewing
+  - software development blog
+  - programming blog
+  - software blog
+---
+
+<div class="home">
+
+  <h1 class="page-heading">Posts</h1>
+
+  <ul class="post-list">
+    {% for post in paginator.posts %}
+      <li>
+        <span class="post-meta">
+          {{ post.date | date: "%b %-d, %Y" }}
+        </span>
+        <h2>
+          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }} </a>
+        </h2>
+        {{ post.excerpt }}
+        <p>
+          <a href="{{ post.url | relative_url }}" class="page-link">
+            continue...
+          </a>
+        </p>
+      </li>
+    {% endfor %}
+  </ul>
+  <!-- Pagination links -->
+  <div class="pagination">
+    {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path }}" class="previous">
+      <i class="fa fa-arrow-left fa-lg" aria-hidden="true"></i>
+      Previous
+    </a>
+    {% else %}
+    Page
+    {% endif %}
+    <span class="page_number ">{{ paginator.page }} of {{ paginator.total_pages }}</span>
+    {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}" class="next">
+      Next
+      <i class="fa fa-arrow-right fa-lg" aria-hidden="true"></i>
+    </a>
+    {% else %}
+    pages.
+    {% endif %}
+
+  </div>
+
+</div>

@@ -29,7 +29,9 @@ email: alun+blog@badgerous.net
 markdown: kramdown
 theme: minima
 gems:
+  - jemoji
   - jekyll-feed
+  - jekyll-paginate
 exclude:
   - Gemfile
   - Gemfile.lock
@@ -38,3 +40,4 @@ disqus:
 google_analytics: UA-88380620-1
 google_adsense: ca-pub-6917251684818559
 permalink: :year/:month/:day/:title.html
+paginate: 5
