@@ -105,6 +105,22 @@
   list-style: none;
 }
 
+.pagination {
+    > a {
+	.fa-arrow-right { color: $brand-color; }
+	.fa-arrow-left { color: $brand-color; }
+
+	&:visited {
+	    .fa-arrow-right { color: darken($brand-color, 15%); }
+	    .fa-arrow-left { color: darken($brand-color, 15%); }
+	}
+	&:hover {
+	    .fa-arrow-right { color: lighten($brand-color, 15%); }
+	    .fa-arrow-left { color: lighten($brand-color, 15%); }
+	}
+    }
+}
+
 /**
  * Site footer
  */
@@ -199,8 +215,18 @@
   > li {
     margin-bottom: $spacing-unit;
     > h2 {
-      margin-bottom: 0;
+      margin-bottom: $spacing-unit / 8;
     }
+  }
+  .page-link {
+      .fa-sign-in { color: $brand-color; }
+
+      &:visited {
+	  .fa-sign-in { color: darken($brand-color, 15%); }
+      }
+      &:hover {
+	  .fa-sign-in { color: lighten($brand-color, 15%); }
+      }
   }
 }
 
