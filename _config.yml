@@ -14,24 +14,39 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-author: Alun Evans
+author:
+  name: Alun Evans
+  email: alun+blog@badgerous.net
+  twitter: alun404
 title: Badgerous Blog
 description: > # this means to ignore newlines until "baseurl:"
-  Literacy and diligence.
+  A blog about literacy and diligence.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://badgerous.net"
-twitter_username: alun404
+twitter:
+  username: alun404
 linkedin_username: alun404
 github_username:  alxn
-email: alun+blog@badgerous.net
+
+social:
+  name: Alun Evans
+  links:
+    - https://twitter.com/alun404
+    - https://www.facebook.com/alun404
+    - https://www.linkedin.com/in/alun404
+    - https://github.com/alxn
+    - https://keybase.io/alun404
 
 # Build settings
 markdown: kramdown
+highlighter: rouge
 theme: minima
 gems:
   - jemoji
-  - jekyll-feed
   - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
 exclude:
   - Gemfile
   - Gemfile.lock
