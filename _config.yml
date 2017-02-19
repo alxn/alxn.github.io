@@ -46,6 +46,7 @@ gems:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-seo-tag
+  - jemoji
 exclude:
   - Gemfile
   - Gemfile.lock
@@ -53,5 +54,14 @@ disqus:
   shortname: badgerous
 google_analytics: UA-88380620-1
 google_adsense: ca-pub-6917251684818559
+
+# Offline emoji, fetched with:
+#   bundle exec gemoji extract assets/offline/
+#
+#emoji:
+#  src: "/assets/offline"
+
+# Where things are
+
 permalink: :year/:month/:day/:title.html
 paginate: 5
