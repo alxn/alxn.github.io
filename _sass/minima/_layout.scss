@@ -301,3 +301,23 @@
   font-size:$small-font-size;
   font-family: $sans-font-family;
 }
+
+/*
+ * Archive
+ */
+
+.archive {
+    ul {
+	list-style: none;
+	li {
+	    time {
+		font-family: $code-font-family;
+		padding-right: $spacing-unit/2;
+	    }
+	    time:after {
+		content: "—";
+		padding-left: $spacing-unit/2;
+	    }
+	}
+    }
+}
