@@ -1,7 +1,6 @@
 ---
-layout: page
-title: Archive
-permalink: /archive/
+layout: default
+permalink: /meta/archive
 ---
 
 <section class="archive">
