@@ -27,6 +27,12 @@ keywords:
               {{ post.date | date: "%b %-d, %Y" }},
             </li>
             <li>
+              <i class="fa fa-sitemap" aria-hidden="true"></i>
+              {% for cat in post.categories %}
+              <a href="/meta/categories#{{ cat | slugify }}" class="post-category">{{ cat }}</a>,
+              {% endfor %}
+            </li>
+            <li>
               <i class="fa fa-file-text" aria-hidden="true"></i>
               {% assign words = post.content | number_of_words %}
               {{ words }} words,

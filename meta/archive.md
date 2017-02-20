@@ -3,16 +3,18 @@ layout: default
 permalink: /meta/archive
 ---
 
-<section class="archive">
-
+<section class="meta" id="archive">
+   {% assign thisYear = site.time | date: "%Y" %}
    {% for post in site.posts %}
        {% assign postYear = post.date | date: "%Y" %}
        {% if postYear != listYear %}
-           {% if forloop.first %}
-           <h1>This year's posts:</h1>
+           {% unless forloop.first %}
+             </ul>
+           {% endunless %}
+           {% if thisYear == postYear %}
+             <h1>This year's posts:</h1>
            {% else %}
-		   </ul>
-           <h1>{{ postYear }}:</h1>
+             <h1>{{ postYear }}:</h1>
            {% endif %}
            <ul>
            {% assign listYear = postYear %}

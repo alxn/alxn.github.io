@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  Getting that tech job.
-categories: career interview
+categories: career
+tags: [advice, interview, webscale]
 ---
 
 There is **plenty** of information on the internet about getting that

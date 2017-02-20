@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  "Blogging with Jekyll."
-categories: blog
+categories: blogging
+tags: [feedly]
 ---
 
 I've decided to start blogging some notes, mainly for my own benefit;

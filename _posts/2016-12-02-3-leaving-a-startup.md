@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  Leaving a startup
-categories: startup career
+categories: career
+tags: [startup, advice, quitting, execution]
 ---
 
 A good colleague of mine recommended 2 years as the maximum time to

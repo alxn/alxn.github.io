@@ -31,6 +31,21 @@ layout: default
           <i class="fa fa-clock-o" aria-hidden="true"></i>
           {{ words | plus: 250 | divided_by: 180 }} minute read.
         </li>
+      </ul>
+      Posted in
+      <i class="fa fa-sitemap" aria-hidden="true"></i>
+      {% for cat in page.categories %}
+      <a href="/meta/categories#{{ cat | slugify }}" class="post-category">{{ cat }}</a>,
+      {% endfor %}
+      with
+      {% if post.tags.size == 1 %}
+        <i class="fa fa-tag" aria-hidden="true"></i>
+      {% else %}
+        <i class="fa fa-tags" aria-hidden="true"></i>
+      {% endif %}
+      {% for tag in page.tags %}
+      <a href="/meta/tags#{{ tag | slugify }}" class="post-tag">{{ tag }}</a>{% if forloop.last %}.{% else %}, {% endif %}
+      {% endfor %}
     </span>
   </header>
 

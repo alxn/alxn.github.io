@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  Picking a startup
-categories: startup career
+categories: career
+tags: [startup, advice, interview]
 ---
 
 After successfully engaging with a "bubble" of startups, then comes

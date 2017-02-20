@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  Interview Tips
-categories: career interview
+categories: career
+tags: [interview, advice]
 ---
 
 This is meta-level post, about technique or general strategy for a

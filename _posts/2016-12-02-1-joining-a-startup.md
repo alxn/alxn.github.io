@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  Joining a startup
-categories: startup career
+categories: career
+tags: [startup, advice, resume]
 ---
 
 The number one reason to join a startup is not money. It's certainly

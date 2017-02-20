@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  Algorithms
-categories: career interview algorithms
+categories: career
+tags: [interview, algorithms]
 ---
 
 This is by far the biggest area for the tech interview, though
