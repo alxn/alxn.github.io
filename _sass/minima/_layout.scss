@@ -307,6 +307,13 @@
  */
 
 .meta {
+    .summary {
+	li {
+	    font-size: 20px;
+	    display:inline;
+	    padding-right: $spacing-unit / 4;
+	}
+    }
     ul {
 	list-style: none;
 	li {
