@@ -4,9 +4,11 @@ title: Colophon
 permalink: /colophon/
 ---
 
-For years I have been making endless notes about projects I
-undertake. Finally I've decided to put them online where other people can
-ignore them.
+For years I have been making endless notes about projects I undertake,
+during which I have often noted that my only two redeemable qualities
+are literacy and diligence, which seems to get you quite far. I've
+finally I've decided to put all these mad ramblings on a blog where
+other people can ignore them.
 
 The posts are fairly mundane:
 
@@ -20,6 +22,11 @@ corrupted, (I'm looking at you [WordPress][]). Instead the pages are
 processed into a folder which is then served directly to the reader,
 thanks to the magic of [GitHub Pages][gh-pages]. You can even
 fork [this blog][src].
+
+There is plenty of inspiration out there to use a static site
+generator, (hello [Yegor][]!), I also really liked the concept of
+blogging with [Git, Emacs, and Jekyll][gej]. Some other posts really
+helped me with the [archive][], and the other [meta][] pages.
 
 The wonderful icons are from the Open Source [FontAwesome][] via
 a [CDN][bootstrapcdn], and the beautiful typefaces are
@@ -36,3 +43,7 @@ the [AMP Project][amp].
 [bootstrapcdn]: https://bootstrapcdn.com/
 [fonts]: https://fonts.google.com/
 [amp]: https://www.ampproject.org/
+[Yegor]: https://yegor256.com/
+[gej]: https://metajack.im/2009/01/23/blogging-with-git-emacs-and-jekyll/
+[archive]: http://chris.house/blog/building-a-simple-archive-page-with-jekyll/
+[meta]: https://codinfox.github.io/dev/2015/03/06/use-tags-and-categories-in-your-jekyll-based-github-pages/
