@@ -6,15 +6,11 @@
 
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>
-            {% if site.author.name %}
-              {{ site.author.name | escape }}
-            {% else %}
-              {{ site.title | escape }}
-            {% endif %}
-            </li>
-        </ul>
+        &copy;
+        <span itemscope="" itemprop="copyrightHolder" itemtype="http://schema.org/Person">
+          <span itemprop="name">{{ site.author.name }}</span>
+        </span>
+        2016&ndash;<span itemprop="copyrightYear">{{site.time | date: "%Y"}}</span>
       </div>
 
       <div class="footer-col footer-col-2">
@@ -51,7 +47,6 @@
         <p>{{ site.description | escape }}</p>
       </div>
     </div>
-
   </div>
 
 </footer>
