@@ -8,15 +8,10 @@ repository.
 License
 -------
 
-The following directories and their contents are Copyright Alun
-Evans. You may not reuse anything therein without my permission:
+The posts, images and content of this blog are covered by
+a [cc-by-sa-4.0][] license.
 
-    _posts/
-    assets/img/
-
-All other directories and files are MIT Licensed. Feel free to use the
-HTML and CSS as you please.
-
+[cc-by-sa-4.0]: https://creativecommons.org/licenses/by-sa/4.0/
 [gh-pages]: https://pages.github.com/
 [jekyll]: https://jekyllrb.com/
 [jekyll-src]: https://github.com/jekyll/jekyll
