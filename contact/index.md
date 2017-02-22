@@ -7,22 +7,30 @@ permalink: /contact/
 <section class="contact">
   <h1>Contact me:</h1>
 
-  <ul>
+  <ul class="fa-ul">
     <li>
-      <i class="fa fa-twitter fa-fw" aria-hidden="true"></i>
-      <a href="https://twitter.com/alun404">Twitter</a>
+      <a href="https://twitter.com/alun404">
+        <i class="fa-li fa fa-twitter" aria-hidden="true"></i>
+        Twitter
+      </a>
     </li>
     <li>
-      <i class="fa fa-linkedin fa-fw" aria-hidden="true"></i>
-      <a href="https://www.linkedin.com/in/alun404">LinkedIn</a>
+      <a href="https://www.linkedin.com/in/alun404">
+        <i class="fa-li fa fa-linkedin" aria-hidden="true"></i>
+        LinkedIn
+      </a>
     </li>
     <li>
-      <i class="fa fa-paper-plane fa-fw" aria-hidden="true"></i>
-      <a href="mailto:alun+blog@badgerous.net">Email</a>
+      <a href="mailto:alun+blog@badgerous.net">
+        <i class="fa-li fa fa-paper-plane" aria-hidden="true"></i>
+        Email
+      </a>
     </li>
     <li>
-      <i class="fa fa-lock fa-fw" aria-hidden="true"></i>
-      <a href="https://keybase.io/alun404">Keybase</a>
+      <a href="https://keybase.io/alun404">
+        <i class="fa-li fa fa-lock" aria-hidden="true"></i>
+        Keybase
+      </a>
     </li>
   </ul>
 

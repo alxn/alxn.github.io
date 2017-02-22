@@ -1,9 +1,22 @@
+
 .fa-twitter:hover { color: #00aced; }
+a:hover {
+    .fa-twitter {color: #00aced; }
+}
 .fa-linkedin:hover { color: #007bb6; }
+a:hover {
+    .fa-linkedin { color: #007bb6; }
+}
 .fa-stackoverflow:hover { color: #f48024; }
 .fa-github:hover { color: #800080; }
 .fa-facebook:hover { color: #3b5998; }
 .fa-rss:hover { color: #ff6600; }
 .fa-envelope:hover { color: #c92c19; }
 .fa-paper-plane:hover { color: #c92c19; }
+a:hover {
+    .fa-paper-plane { color: #c92c19; }
+}
 .fa-lock:hover { color: #d4af37; }
+a:hover {
+    .fa-lock { color: #d4af37; }
+}
