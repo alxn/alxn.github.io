@@ -5,7 +5,7 @@ permalink: /meta/categories
 
 <section class="meta" id="categories">
   <h1>
-    <i class="fa fa-sitemap" aria-hidden="true"></i>
+    <i class="fa fa-folder-open" aria-hidden="true"></i>
     Categories
   </h1>
   <div class="summary">

@@ -4,6 +4,10 @@ permalink: /meta/archive
 ---
 
 <section class="meta" id="archive">
+  <h1>
+    <i class="fa fa-calendar" aria-hidden="true"></i>
+    Archive
+  </h1>
    {% assign thisYear = site.time | date: "%Y" %}
    {% for post in site.posts %}
        {% assign postYear = post.date | date: "%Y" %}

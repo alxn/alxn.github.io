@@ -27,7 +27,7 @@ keywords:
               {{ post.date | date: "%b %-d, %Y" }},
             </li>
             <li>
-              <i class="fa fa-sitemap" aria-hidden="true"></i>
+              <i class="fa fa-folder-open" aria-hidden="true"></i>
               {% for cat in post.categories %}
               <a href="/meta/categories#{{ cat | slugify }}" class="post-category">{{ cat }}</a>,
               {% endfor %}
