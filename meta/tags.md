@@ -4,10 +4,10 @@ permalink: /meta/tags
 ---
 
 <section class="meta" id="tags">
-  <h1>
-    <i class="fa fa-tags" aria-hidden="true"></i>
-    Tags
-  </h1>
+  <div class="header">
+    <i class="fa fa-tags fa-3x fa-pull-left" aria-hidden="true"></i>
+    <h1>Tags</h1>
+  </div>
   <div class="summary">
     <ul class="posts">
     {% for tag in site.tags %}

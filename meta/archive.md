@@ -4,10 +4,11 @@ permalink: /meta/archive
 ---
 
 <section class="meta" id="archive">
-  <h1>
-    <i class="fa fa-calendar" aria-hidden="true"></i>
-    Archive
-  </h1>
+  <div class="header">
+    <i class="fa fa-calendar fa-3x fa-pull-left" aria-hidden="true"></i>
+    <h2>Archive</h2>
+  </div>
+  <div>
    {% assign thisYear = site.time | date: "%Y" %}
    {% for post in site.posts %}
        {% assign postYear = post.date | date: "%Y" %}
@@ -26,5 +27,6 @@ permalink: /meta/archive
        <li><time>{{ post.date | date: "%d %b" }}</time><a href="{{ post.url }}">{{ post.title }}</a></li>
        {% if forloop.last %}</ul>{% endif %}
    {% endfor %}
+  </div>
 
 </section>

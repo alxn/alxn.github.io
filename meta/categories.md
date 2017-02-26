@@ -4,10 +4,10 @@ permalink: /meta/categories
 ---
 
 <section class="meta" id="categories">
-  <h1>
-    <i class="fa fa-folder-open" aria-hidden="true"></i>
-    Categories
-  </h1>
+  <div class="header">
+    <i class="fa fa-folder-open fa-3x fa-pull-left" aria-hidden="true"></i>
+    <h2>Categories</h2>
+  </div>
   <div class="summary">
     <ul class="posts">
     {% for tag in site.categories %}
