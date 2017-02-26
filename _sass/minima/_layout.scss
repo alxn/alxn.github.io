@@ -28,7 +28,11 @@
   float: right;
   line-height: 56px;
 
-  .menu-icon {
+  .nav-trigger {
+    display: none;
+  }
+
+  .menu-bars {
     display: none;
   }
 
@@ -51,7 +55,27 @@
     border-radius: 5px;
     text-align: right;
 
-    .menu-icon {
+    label[for="nav-trigger"] {
+      display: block;
+      float: right;
+      width: 36px;
+      height: 36px;
+      z-index: 2;
+    }
+
+    // Selects every <input> element that is preceded by a <nav> element
+    input ~ .trigger {
+      clear: both;
+      display: none;
+    }
+
+    // Selects every checked <input> element that is preceded by a <nav> element
+    input:checked ~ .trigger {
+      display: block;
+      padding-bottom: 5px;
+    }
+
+    .menu-bars {
       display: block;
       float: right;
       width: 36px;
@@ -59,16 +83,6 @@
       line-height: 0;
       padding-top: 10px;
       text-align: center;
-    }
-
-    .trigger {
-      clear: both;
-      display: none;
-    }
-
-    &:hover .trigger {
-      display: block;
-      padding-bottom: 5px;
     }
 
     .page-link {

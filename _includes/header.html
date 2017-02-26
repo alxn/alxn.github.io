@@ -5,10 +5,13 @@
     <a class="site-title" href="{{ "/" | relative_url}}">{{ site.title | escape }}</a>
 
     <nav class="site-nav">
-      <span class="menu-icon">
-        <i class="fa fa-bars"></i>
-      </span>
 
+      <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+      <label for="nav-trigger">
+        <span class="menu-bars">
+          <i class="fa fa-bars"></i>
+        </span>
+      </label>
       <div class="trigger">
         {% for each in site.pages %}
           {% if each.title %}
