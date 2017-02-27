@@ -27,12 +27,6 @@ keywords:
               {{ post.date | date: "%b %-d, %Y" }},
             </li>
             <li>
-              <i class="fa fa-folder-open" aria-hidden="true"></i>
-              {% for cat in post.categories %}
-              <a href="/meta/categories#{{ cat | slugify }}" class="post-category">{{ cat }}</a>,
-              {% endfor %}
-            </li>
-            <li>
               <i class="fa fa-file-text" aria-hidden="true"></i>
               {% assign words = post.content | number_of_words %}
               {{ words }} words,
@@ -42,6 +36,10 @@ keywords:
               {{ words | plus: 250 | divided_by: 180 }} minute read.
             </li>
           </ul>
+          Posted in <i class="fa fa-folder-open" aria-hidden="true"></i>
+          {% for cat in post.categories %}
+          <a href="/meta/categories#{{ cat | slugify }}" class="post-category">{{ cat }}</a>.
+          {% endfor %}
         </span>
         {{ post.excerpt }}
         <p>

@@ -261,15 +261,6 @@
 	  display: inline;
       }
   }
-  @include media-query($on-palm) {
-      > ul {
-	  display: flex;
-	  flex-wrap: wrap;
-	  > li:nth-child(2n) {
-	      flex-basis: 50%;
-	  }
-      }
-  }
 }
 
 .post-link {
