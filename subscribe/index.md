@@ -27,10 +27,10 @@ to [GitHub Webook][webhook] via a [magic URL][magicurl] through to
 a [pubsubhubbub][].
 
 <form method='post' action='http://blogtrottr.com'>
-    Your email: <input type='text' name='btr_email' /><br />
+    Your email: <input type='text' name='btr_email' />
     <input type='hidden' name='btr_url' value="http://badgerous.net/feed.xml" />
     <input type='hidden' name='schedule_type' value='0' />
-    <input type='submit' value='Follow this feed via email' />
+    <input type='submit' value='Subscribe' />
 </form>
 
 [RSS]: https://en.wikipedia.org/wiki/RSS
