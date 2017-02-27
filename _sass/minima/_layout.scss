@@ -36,6 +36,10 @@
     display: none;
   }
 
+  .menu-close {
+    display: none;
+  }
+
   .page-link {
     color: $text-color;
     line-height: $base-line-height;
@@ -56,33 +60,39 @@
     text-align: right;
 
     label[for="nav-trigger"] {
-      display: block;
-      float: right;
-      width: 36px;
-      height: 36px;
-      z-index: 2;
+	float: right;
+	width: 36px;
+	height: 26px;
+	line-height: 0;
+	padding-top: 10px;
+	text-align: center;
     }
 
-    // Selects every <input> element that is preceded by a <nav> element
+    input + label[for="nav-trigger"] {
+	.menu-bars {
+	    display: block;
+	}
+	.menu-close {
+	    display: none;
+	}
+    }
+
+    input:checked + label[for="nav-trigger"] {
+	.menu-bars {
+	    display: none;
+	}
+	.menu-close {
+	    display: block;
+	}
+    }
+
     input ~ .trigger {
-      clear: both;
       display: none;
     }
 
-    // Selects every checked <input> element that is preceded by a <nav> element
     input:checked ~ .trigger {
       display: block;
-      padding-bottom: 5px;
-    }
-
-    .menu-bars {
-      display: block;
-      float: right;
-      width: 36px;
-      height: 26px;
-      line-height: 0;
-      padding-top: 10px;
-      text-align: center;
+      clear: both;
     }
 
     .page-link {
