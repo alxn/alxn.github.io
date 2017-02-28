@@ -4,6 +4,13 @@ title: Subscribe
 permalink: /subscribe/
 ---
 
+{% if jekyll.environment == 'production' %}
+  {% assign assets = "https://media.githubusercontent.com/media/alxn/blog/master" %}
+{% else %}
+  {% assign assets = "" %}
+{% endif %}
+
+
 The best way to follow any blog, including this one, is via an [RSS][]
 reader.
 
@@ -17,7 +24,7 @@ There are also some nice standalone apps out there; like [Vienna][]
 for OS-X. [feedly][] also maintains a nice list of all
 the [RSS apps][fapps] that work with it, for any platform.
 
-<a href='http://cloud.feedly.com/#subscription%2Ffeed%2Fhttp%3A%2F%2Fbadgerous.net%2Ffeed.xml'  target='blank'><img id='feedlyFollow' src="{{ '/assets/img/feedly-follow-rectangle-volume-big_2x.png' | relative_url }}" alt='follow us in feedly' width='131' height='56'/></a>
+<a href='http://cloud.feedly.com/#subscription%2Ffeed%2Fhttp%3A%2F%2Fbadgerous.net%2Ffeed.xml'  target='blank'><img id='feedlyFollow' src="{{ assets }}/assets/img/feedly-follow-rectangle-volume-big_2x.png" alt='follow in feedly' width='131' height='56'/></a>
 
 If you really want an email, then you can use [Blogtrottr][] to setup
 an RSS to email subscription; so you can be notified when I post.
