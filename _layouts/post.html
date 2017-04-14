@@ -29,7 +29,11 @@ layout: default
         </li>
         <li>
           <i class="fa fa-clock-o" aria-hidden="true"></i>
-          {{ words | plus: 250 | divided_by: 180 }} minute read.
+          {{ words | plus: 250 | divided_by: 180 }} minute read,
+        </li>
+        <li>
+          <i class="fa fa-history" aria-hidden="true"></i>
+          <a href="https://github.com/alxn/blog/commits/master/{{ page.path }}">History.</a>
         </li>
       </ul>
       Posted in
