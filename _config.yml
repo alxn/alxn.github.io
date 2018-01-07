@@ -41,7 +41,7 @@ social:
 markdown: kramdown
 highlighter: rouge
 theme: minima
-gems:
+plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-feed

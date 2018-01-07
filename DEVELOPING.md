@@ -1,0 +1,18 @@
+Developing
+==========
+
+Cheatsheet
+----------
+
+    bundle update github-pages
+    bundle exec github-pages versions
+    bundle install
+    bundle info jekyll-mentions
+
+    bundle help
+
+    bundle exec jekyll serve
+        [--help]
+        [--drafts]
+        [--incremental]
+        [--H <host[:port]>] [-P <port>]
