@@ -16,3 +16,5 @@ Cheatsheet
         [--drafts]
         [--incremental]
         [--H <host[:port]>] [-P <port>]
+
+    JEKYLL_ENV=production bundle exec jekyll serve
