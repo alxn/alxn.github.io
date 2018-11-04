@@ -17,11 +17,13 @@
       </label>
       <div class="trigger">
         {% for each in site.pages %}
-          {% if each.title %}
-            {% unless each.url contains '/page' or page.url == each.url %}
-              <a class="page-link" href="{{ each.url | relative_url }}">{{ each.title | escape }}</a>
-            {% endunless %}
-          {% endif %}
+          {% unless each.exclude_from_search %}
+            {% if each.title %}
+              {% unless each.url contains '/page' or page.url == each.url %}
+                <a class="page-link" href="{{ each.url | relative_url }}">{{ each.title | escape }}</a>
+              {% endunless %}
+            {% endif %}
+          {% endunless %}
         {% endfor %}
       </div>
     </nav>
